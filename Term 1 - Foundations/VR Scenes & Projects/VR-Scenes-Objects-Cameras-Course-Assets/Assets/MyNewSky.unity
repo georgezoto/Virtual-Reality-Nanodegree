@@ -243,11 +243,11 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
+    width: 1.1
+    height: 1.1
+  near clip plane: 0.31
+  far clip plane: 1001
+  field of view: 61
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
