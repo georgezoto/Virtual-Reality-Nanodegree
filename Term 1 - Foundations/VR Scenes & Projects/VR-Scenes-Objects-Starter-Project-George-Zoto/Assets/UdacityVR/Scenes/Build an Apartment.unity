@@ -1536,6 +1536,7 @@ GameObject:
   - component: {fileID: 1019136409}
   - component: {fileID: 1019136408}
   - component: {fileID: 1019136411}
+  - component: {fileID: 1019136412}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1618,7 +1619,7 @@ Animator:
   m_GameObject: {fileID: 1019136406}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c6b965aa4f14543b6b33c0ac6f773fc4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 93a5dead063d9426eaa14c0dd21f0c97, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1626,6 +1627,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1019136412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019136406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25417d8bf1f59504ebb38891f9cc4c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1019136411}
+  triggerName: SpinTheGlobe
 --- !u!1001 &1057044217
 Prefab:
   m_ObjectHideFlags: 0
@@ -2334,13 +2348,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1569476706}
-  m_LocalRotation: {x: -0.11199012, y: 0.54988855, z: -0.065969005, w: -0.825063}
-  m_LocalPosition: {x: 3.559, y: 2.477, z: -1.618}
+  m_LocalRotation: {x: -0.016393453, y: 0.9983266, z: 0.016214803, w: 0.05303128}
+  m_LocalPosition: {x: -1.725, y: 1.252, z: 0.544}
   m_LocalScale: {x: 1, y: 1.0000004, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 14.913001, y: 292.524, z: -0.84800005}
+  m_LocalEulerAnglesHint: {x: -1.955, y: 173.949, z: -1.7780001}
 --- !u!45 &1569476711
 Skybox:
   m_ObjectHideFlags: 0

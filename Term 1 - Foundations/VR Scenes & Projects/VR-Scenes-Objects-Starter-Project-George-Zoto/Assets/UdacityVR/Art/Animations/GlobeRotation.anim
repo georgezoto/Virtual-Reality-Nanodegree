@@ -184,7 +184,7 @@ AnimationClip:
         value: 0
         inSlope: 0
         outSlope: 0
-        tangentMode: 1
+        tangentMode: 136
       - serializedVersion: 2
         time: 0.5
         value: 0
