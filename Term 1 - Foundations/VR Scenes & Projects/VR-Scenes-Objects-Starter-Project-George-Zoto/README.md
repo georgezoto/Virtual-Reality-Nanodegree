@@ -19,7 +19,11 @@ in general challenging:
 1) Brand new UI and terminology
 2) Answers given in Discussion forums many times forget that students are still
 beginners at this field and they use terms introduced later in the class to explain something in the beginning of it.
+
 3) Lack of many terms ever properly explained in the class or in the forums, for example GVR and how is it used or dual and single cameras for VR deployment.
+I ended up putting information together from different sources in a post that I wish was there before I did this project.
+It is available at: https://discussions.udacity.com/t/google-vr-in-unity-finally-explained-a-step-by-step-guide-for-beginners/540566
+
 4) Limited ability of a mentor to help out just by messaging given that most of the issues are inside Unity's UI,
 perhaps a screen sharing feature would be more useful for this degree.
 5) Simple terms take a long time to understand and explain eg: https://discussions.udacity.com/t/animation-trigger-in-this-project/195659
