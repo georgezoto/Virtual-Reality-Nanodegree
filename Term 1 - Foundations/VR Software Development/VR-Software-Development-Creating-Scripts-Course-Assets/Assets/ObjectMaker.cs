@@ -8,7 +8,8 @@ public class ObjectMaker : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		// make an object here	
+		// make an object here
+		Object.Instantiate(objectToCreate, new Vector3(2, 4, 6), Quaternion.identity);
 	}
 	
 	// Update is called once per frame
