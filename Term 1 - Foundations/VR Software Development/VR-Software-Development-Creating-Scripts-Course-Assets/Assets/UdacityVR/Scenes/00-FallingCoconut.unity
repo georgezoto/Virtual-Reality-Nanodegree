@@ -2297,7 +2297,7 @@ Transform:
   m_PrefabParentObject: {fileID: 493450, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1363184260}
-  m_LocalRotation: {x: 0.1515048, y: -0.681526, z: -0.7136556, w: -0.057133608}
+  m_LocalRotation: {x: 0.15150481, y: -0.68152606, z: -0.71365565, w: -0.0571336}
   m_LocalPosition: {x: 2.416153, y: 1.2040119, z: 0.84185505}
   m_LocalScale: {x: 95.695984, y: 95.69602, z: 95.696045}
   m_Children: []
@@ -3126,33 +3126,17 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 0c28ce9845d5ab044a96c93e8a817629, type: 3}
   m_PrefabInternal: {fileID: 1666254298}
---- !u!54 &1666254300
-Rigidbody:
+--- !u!114 &1666254300
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1666254299}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!135 &1666254301
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1666254299}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.0020776717
-  m_Center: {x: -1.1641532e-10, y: 0, z: -1.16415294e-10}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a20e84de096a4c35bdeb3ddb59c84f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1686452190
 GameObject:
   m_ObjectHideFlags: 0
