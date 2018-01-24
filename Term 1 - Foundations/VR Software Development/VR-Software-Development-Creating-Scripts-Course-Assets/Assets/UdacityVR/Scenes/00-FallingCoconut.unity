@@ -1182,7 +1182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7ba8d66aa0d460b8a1101415baae30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToCreate: {fileID: 196526, guid: 47a775759feee42e787759b845747486, type: 2}
+  objectToCreate: {fileID: 1369382379229788, guid: 6e2b0421bda844d3cbfbfd66475a7e5f,
+    type: 2}
 --- !u!4 &786409719
 Transform:
   m_ObjectHideFlags: 0
@@ -2976,6 +2977,10 @@ Prefab:
     - target: {fileID: 4028876760336702, guid: 6e2b0421bda844d3cbfbfd66475a7e5f, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028876760336702, guid: 6e2b0421bda844d3cbfbfd66475a7e5f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e2b0421bda844d3cbfbfd66475a7e5f, type: 2}
