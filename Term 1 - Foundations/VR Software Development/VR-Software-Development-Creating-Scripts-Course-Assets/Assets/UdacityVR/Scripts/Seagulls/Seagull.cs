@@ -84,7 +84,7 @@ public class Seagull : MonoBehaviour
 		//move the gull forward along that path
 		gameObject.transform.position	= gameObject.transform.position + _direction * _velocity;
 
-		//Debug.DrawRay(gameObject.transform.position, gameObject.transform.forward*2.0f);
+		Debug.DrawRay(gameObject.transform.position, gameObject.transform.forward*2.0f);
 	}
 
 }
