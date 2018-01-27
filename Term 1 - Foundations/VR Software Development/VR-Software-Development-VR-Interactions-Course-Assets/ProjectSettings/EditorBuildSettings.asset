@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UdacityVR/Scenes/01-TakeAVacation.unity
+    guid: 283b0c62f1fd943fead903b944f31213
+  - enabled: 1
+    path: Assets/UdacityVR/Scenes/00-FallingCoconut.unity
+    guid: ba2dfb6f2f5464eb78ba998f7a27d776
