@@ -95,7 +95,7 @@ public class DemoInputManager : MonoBehaviour {
     // Running on an Android device.
     viewerPlatform = GvrSettings.ViewerPlatform;
     // First loaded device in Player Settings.
-    string vrDeviceName = UnityEngine.VR.VRSettings.loadedDeviceName;
+    string vrDeviceName = UnityEngine.XR.XRSettings.loadedDeviceName;
     if (vrDeviceName != CARDBOARD_DEVICE_NAME &&
         vrDeviceName != DAYDREAM_DEVICE_NAME) {
       Debug.LogErrorFormat("Loaded device was '{0}', must be one of '{1}' or '{2}'",

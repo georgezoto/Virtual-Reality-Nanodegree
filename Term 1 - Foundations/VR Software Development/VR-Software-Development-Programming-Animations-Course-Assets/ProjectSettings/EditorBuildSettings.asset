@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UdacityVR/Scenes/ProgrammingAnimations.unity
+    guid: 4c8022da6ccdb384cbe5bcc01db9d34e
