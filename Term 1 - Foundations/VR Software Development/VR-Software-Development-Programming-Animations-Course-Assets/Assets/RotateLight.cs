@@ -5,6 +5,10 @@ using UnityEngine;
 public class RotateLight : MonoBehaviour {
 
 	public GameObject directionalLight;
+	float startTime = 0f;
+	int number = 42;
+	bool flag = true;
+	string text = "Cool class";
 
 	// Use this for initialization
 	void Start () {
