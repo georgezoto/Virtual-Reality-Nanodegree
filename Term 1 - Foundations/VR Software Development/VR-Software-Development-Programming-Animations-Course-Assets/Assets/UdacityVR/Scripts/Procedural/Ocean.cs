@@ -69,11 +69,13 @@ public class Ocean
 	public static void SetSoundPositionRelativeToViewer()
 	{
 		Vector3 direction_to_shore							= Vector3.Normalize(-Camera.main.gameObject.transform.position);
+		//Debug.Log (Camera.main.gameObject.transform.position);
 		Vector3 position_of_sound 							= direction_to_shore * -256.0f;
 		position_of_sound.y									= 1.0f;
 
 		audio_source.gameObject.transform.position			= position_of_sound;
 	
 		Debug.DrawRay(Camera.main.transform.position, position_of_sound);
+
 	}
 }

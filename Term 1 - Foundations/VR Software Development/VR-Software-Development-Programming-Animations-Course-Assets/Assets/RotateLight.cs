@@ -32,7 +32,7 @@ public class RotateLight : MonoBehaviour {
 			// ...then rotate.
 			sunRotationAnimation.StopPlayback ();
 			sunRotationAnimation.SetBool ("ChangeColor", true);
-			Debug.Log ("Update: 2");
+			//Debug.Log ("Update: 2");
 		}
 	}
 
