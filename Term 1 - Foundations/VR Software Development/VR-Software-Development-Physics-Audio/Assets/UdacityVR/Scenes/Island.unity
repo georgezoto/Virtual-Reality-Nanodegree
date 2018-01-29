@@ -3139,19 +3139,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.6, z: 0.7}
   m_Center: {x: 0.3, y: 0.1, z: 0}
---- !u!114 &1580829168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1580829166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4cc129571a8b46c78bc33d553603ff8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 255497140}
-  triggerName: UpdateChest
 --- !u!1001 &1666254298
 Prefab:
   m_ObjectHideFlags: 0
@@ -3941,6 +3928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 668e65175e18d40ba91a92aefbc6e024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 255497140}
+  triggerName: UpdateChest
 --- !u!1 &2042471644
 GameObject:
   m_ObjectHideFlags: 0
