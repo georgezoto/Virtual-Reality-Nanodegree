@@ -9,7 +9,10 @@ public class AudioPicker : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		int index = Random.Range (0, soundFiles.Length);
+		soundSource.clip = soundFiles [index];
+		soundSource.Play ();
+		print (index);
 	}
 	
 	// Update is called once per frame
