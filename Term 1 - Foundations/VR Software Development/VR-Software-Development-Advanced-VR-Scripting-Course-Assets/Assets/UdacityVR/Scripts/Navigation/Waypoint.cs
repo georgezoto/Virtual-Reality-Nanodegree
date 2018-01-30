@@ -14,7 +14,7 @@ public class Waypoint : MonoBehaviour
 	public Color		hilight_color						= new Color(0.8f, 0.8f, 1.0f, 0.125f);
 	public Color		disabled_color						= new Color(0.125f, 0.125f, .125f, 0.0f);
 
-	public float		animation_scale						= 3f;
+	public float		animation_scale						= 1.5f;
 	public float		animation_speed						= 3.0f;
 
 	private	Vector3		_origional_scale					= Vector3.one;
