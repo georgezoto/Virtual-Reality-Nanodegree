@@ -3911,6 +3911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d779d7cc156660042bff98c3cf109ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  seagullPrefab: {fileID: 196526, guid: 47a775759feee42e787759b845747486, type: 2}
   radius: 8
   draw_alignment: 1
   draw_avoidance: 1

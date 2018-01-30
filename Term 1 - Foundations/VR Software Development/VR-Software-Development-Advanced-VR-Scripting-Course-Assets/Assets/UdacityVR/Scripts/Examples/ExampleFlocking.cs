@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ExampleFlocking : MonoBehaviour 
 {
+	public GameObject seagullPrefab;
+
 	public float radius						= 8.0f;
 	public bool draw_alignment				= true;
 	public bool draw_avoidance				= true;
@@ -44,7 +46,8 @@ public class ExampleFlocking : MonoBehaviour
 		//initialize the flock array of gameobjects 
 		for(int i = 0; i < _flock.Length; i++)
 		{
-			_flock[i] 							= GameObject.CreatePrimitive(PrimitiveType.Cube);
+			//_flock[i] 							= GameObject.CreatePrimitive(PrimitiveType.Cube);
+			_flock[i] 							= Instantiate(seagullPrefab);
 			_flock[i].transform.localScale		= Vector3.one * 0.5f;
 			_flock[i].transform.position 		= Random.insideUnitSphere * 32.0f;
 			_flock[i].transform.localRotation 	= Random.rotation;
