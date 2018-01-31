@@ -26,7 +26,7 @@ public class GvrCardboardHelpers {
   /// Apply the recenteringOffset to the Camera or its parent at runtime.
   public static void Recenter() {
 #if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
-    gvr_reset_tracking(VRDevice.GetNativePtr());
+    gvr_reset_tracking(UnityEngine.XR.XRDevice.GetNativePtr());
 #endif  // (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
     Debug.Log("Use GvrEditorEmulator for in-editor recentering");
   }
@@ -36,7 +36,7 @@ public class GvrCardboardHelpers {
   /// http://google.com/cardboard/cfg?p=CgZHb29nbGUSEkNhcmRib2FyZCBJL08gMjAxNR0rGBU9JQHegj0qEAAASEIAAEhCAABIQgAASEJYADUpXA89OggeZnc-Ej6aPlAAYAM
   public static void SetViewerProfile(String viewerProfileUri) {
 #if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
-    gvr_set_default_viewer_profile(VRDevice.GetNativePtr(), viewerProfileUri);
+    gvr_set_default_viewer_profile(UnityEngine.XR.XRDevice.GetNativePtr(), viewerProfileUri);
 #endif  // (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
     Debug.Log("Unavailable for non-Android and non-iOS builds");
   }

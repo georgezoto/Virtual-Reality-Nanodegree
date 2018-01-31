@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UdacityVR/Scenes/A Maze.unity
+    guid: 8f25cb2dcb57b4fe39c4326ee6f52326
