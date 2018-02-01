@@ -22,9 +22,10 @@ public class Key : MonoBehaviour
         // Destroy the key. Check the Unity documentation on how to use Destroy
 		print("Key.cs: OnCoinClicked()");
 		Object.Instantiate(KeyPoof, transform.position, Quaternion.Euler(-90, 0, 0));
-		Destroy (gameObject);
 
 		Door.GetComponent<Door> ().Unlock();
+
+		Destroy (gameObject);
     }
 
 }

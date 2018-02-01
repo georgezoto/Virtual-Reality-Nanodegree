@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f8a5a2b11c2426cb2a2bea3e825751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Locked: 1
+  Locked: 0
   Opening: 0
 --- !u!137 &137333922001568166
 SkinnedMeshRenderer:
