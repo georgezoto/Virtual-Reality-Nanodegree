@@ -139,3 +139,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KeyPoof: {fileID: 1521802321113964, guid: 456a1cd4d6d974a418a83fe72b2321ca, type: 2}
+  Door: {fileID: 1212538085453316, guid: f9822e67385a4402d9bf680e50d19d58, type: 2}

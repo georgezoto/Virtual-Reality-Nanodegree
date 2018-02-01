@@ -6,6 +6,7 @@ public class Key : MonoBehaviour
 {
     //Create a reference to the KeyPoofPrefab and Door
 	public GameObject KeyPoof;
+	public GameObject Door;
 
 	void Update()
 	{
@@ -22,6 +23,8 @@ public class Key : MonoBehaviour
 		print("Key.cs: OnCoinClicked()");
 		Object.Instantiate(KeyPoof, transform.position, Quaternion.Euler(-90, 0, 0));
 		Destroy (gameObject);
+
+		Door.GetComponent<Door> ().Unlock();
     }
 
 }
