@@ -7,10 +7,12 @@ public class Key : MonoBehaviour
     //Create a reference to the KeyPoofPrefab and Door
 	public GameObject KeyPoof;
 	public GameObject Door;
+	public GameObject MyKey;
 
 	void Update()
 	{
 		//Not required, but for fun why not try adding a Key Floating Animation here :)
+		MyKey.transform.Rotate(0f, 0f, 12f);
 	}
 
 	public void OnKeyClicked()
