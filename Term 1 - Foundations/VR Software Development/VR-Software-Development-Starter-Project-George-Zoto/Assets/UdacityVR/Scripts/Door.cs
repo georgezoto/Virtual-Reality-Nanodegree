@@ -9,10 +9,15 @@ public class Door : MonoBehaviour
 	private bool Locked = true;
 	private bool Opening = false;
 
+	public AudioClip[] soundFiles;
+	public AudioSource soundSource;
+	private int soundindex;
+
 	void Start() {
 		print("Door.cs: Start() "+Locked+": "+Opening);
 		Locked = true;
 		Opening = false;
+		soundindex = 0;
 	}
 
 	void Update() {
@@ -27,11 +32,15 @@ public class Door : MonoBehaviour
             // Set the "opening" boolean to true
         // (optionally) Else
             // Play a sound to indicate the door is locked
-		if (Locked == false) {
+		if (!Locked) {
 			print("Door.cs: OnDoorClicked(): Opening = true;");
 			Opening = true;
+			soundindex = 1;
 		} else {
+			soundindex = 0;
 			print("Door.cs: OnDoorClicked(): Play a sound to indicate the door is locked");
+			soundSource.clip = soundFiles [soundindex];
+			soundSource.Play ();
 		}
     }
 
