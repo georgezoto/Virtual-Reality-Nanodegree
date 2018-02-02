@@ -24,6 +24,9 @@ public class Door : MonoBehaviour
 		print("Door.cs: Update() "+Locked+": "+Opening);
         // If the door is opening and it is not fully raised
             // Animate the door raising up
+		if (Opening && transform.position.y < 7) {
+			transform.Translate (0f, Time.deltaTime, 0f, Space.World);
+		}
     }
 
     public void OnDoorClicked() {
@@ -36,6 +39,8 @@ public class Door : MonoBehaviour
 			print("Door.cs: OnDoorClicked(): Opening = true;");
 			Opening = true;
 			soundindex = 1;
+			soundSource.clip = soundFiles [soundindex];
+			soundSource.Play ();
 		} else {
 			soundindex = 0;
 			print("Door.cs: OnDoorClicked(): Play a sound to indicate the door is locked");
