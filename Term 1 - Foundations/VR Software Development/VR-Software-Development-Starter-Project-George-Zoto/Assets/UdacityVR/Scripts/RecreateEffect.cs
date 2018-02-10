@@ -14,7 +14,7 @@ public class RecreateEffect : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print ("Update!");
+		//print ("Update!");
 		//transform.Translate (0f, Time.deltaTime*10, 0f, Space.World);
 	}
 }

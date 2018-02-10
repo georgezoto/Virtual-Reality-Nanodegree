@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 218ac4f751ca11c48b407e885b4b2773, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3963fe4aa404fe749bf9fc5a5cc08e3c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -3508,7 +3508,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 19891470, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: randomSeed
-      value: 1696568777
+      value: -565966408
       objectReference: {fileID: 0}
     - target: {fileID: 19891470, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: InitialModule.rotation3D
@@ -3520,7 +3520,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 19891470, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: InitialModule.maxNumParticles
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19891470, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: moveWithTransform
@@ -11593,7 +11593,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 19891470, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: randomSeed
-      value: -735626358
+      value: -2117600203
       objectReference: {fileID: 0}
     - target: {fileID: 19891470, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: InitialModule.size3D
@@ -11613,7 +11613,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 19891470, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: InitialModule.maxNumParticles
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 155548, guid: d50f5f5d5a171443fa76bc1f6fc90473, type: 2}
       propertyPath: m_Name
